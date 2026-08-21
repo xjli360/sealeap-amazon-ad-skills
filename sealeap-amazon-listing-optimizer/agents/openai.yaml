@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Listing Optimizer"
+  short_description: "基于官方规则、真实数据与创意简报优化 Amazon Listing"
+  default_prompt: "Use $sealeap-amazon-listing-optimizer to audit and optimize this Amazon listing with evidence, creative direction, and an approval-ready change plan."

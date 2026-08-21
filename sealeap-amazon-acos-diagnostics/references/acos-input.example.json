@@ -1,0 +1,33 @@
+{
+  "scope": {
+    "marketplace": "US",
+    "profile_id": "EXAMPLE_ONLY",
+    "entity_level": "campaign",
+    "entity_id": "EXAMPLE_ONLY",
+    "date_range": "2026-07-01/2026-07-14",
+    "attribution_window": "ACCOUNT_REPORT_DEFAULT",
+    "currency": "USD"
+  },
+  "metrics": {
+    "impressions": 100000,
+    "clicks": 500,
+    "spend": 600,
+    "orders": 50,
+    "ad_sales": 2500,
+    "total_sales": 5000
+  },
+  "economics": {
+    "break_even_acos_pct": 30
+  },
+  "benchmark": {
+    "ctr_pct": 0.6,
+    "cpc": 1.1,
+    "cvr_pct": 12
+  },
+  "reported": {
+    "acos_pct": 24,
+    "cpc": 1.2,
+    "ctr_pct": 0.5,
+    "cvr_pct": 10
+  }
+}

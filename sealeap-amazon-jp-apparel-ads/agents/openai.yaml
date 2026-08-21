@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon JP Apparel Ads"
+  short_description: "基于日本站服饰生命周期与本地消费洞察制定广告运营方案"
+  default_prompt: "Use $sealeap-amazon-jp-apparel-ads to diagnose this Japan apparel ASIN and draft a lifecycle-based advertising plan."

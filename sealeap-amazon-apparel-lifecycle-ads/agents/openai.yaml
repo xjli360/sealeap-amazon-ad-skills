@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon US Apparel Ads"
+  short_description: "按生命周期诊断并生成美国站服饰广告投放、实验与复盘方案"
+  default_prompt: "Use $sealeap-amazon-apparel-lifecycle-ads to diagnose this US apparel ASIN and draft a lifecycle-based Amazon Ads plan."

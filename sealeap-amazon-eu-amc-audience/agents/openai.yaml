@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon EU AMC Audience"
+  short_description: "用AMC旅程、受众与广告重叠分析制定欧洲站可审批投放方案"
+  default_prompt: "Use $sealeap-amazon-eu-amc-audience to diagnose this European Amazon Ads audience opportunity and draft an AMC activation plan."
