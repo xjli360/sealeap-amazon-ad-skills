@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon CA Apparel Ads"
+  short_description: "按生命周期、旺季窗口与英法语流量规划加拿大站服饰广告"
+  default_prompt: "Use $sealeap-amazon-ca-apparel-ads to diagnose this Amazon.ca apparel ASIN and produce an evidence-based, approval-ready advertising plan."

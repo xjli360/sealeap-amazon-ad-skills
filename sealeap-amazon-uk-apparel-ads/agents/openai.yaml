@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon UK Apparel Ads"
+  short_description: "基于英国站服饰生命周期与季节节点制定本地化广告运营方案"
+  default_prompt: "Use $sealeap-amazon-uk-apparel-ads to diagnose this UK apparel ASIN and draft a lifecycle-based advertising plan."

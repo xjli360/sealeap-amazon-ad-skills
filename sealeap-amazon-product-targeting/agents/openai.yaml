@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Product Targeting"
+  short_description: "用 ASIN、品类与关键词联动设计可验证的商品投放实验"
+  default_prompt: "Use $sealeap-amazon-product-targeting to map this product traffic, rank ASIN and category targets, and draft one controlled product-targeting experiment."

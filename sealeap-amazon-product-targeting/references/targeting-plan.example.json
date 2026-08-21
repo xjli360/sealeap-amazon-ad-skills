@@ -1,0 +1,31 @@
+{
+  "scope": {
+    "marketplace": "US",
+    "profile_id": "EXAMPLE_ONLY",
+    "advertised_asin": "B000000001",
+    "date_range": "2026-07-01/2026-07-14",
+    "attribution_window": "ACCOUNT_REPORT_DEFAULT"
+  },
+  "objective": "complementary_traffic_test",
+  "experiments": [
+    {
+      "experiment_id": "pt-001",
+      "campaign": "DRAFT-SP-PT-COMPLEMENT",
+      "ad_group": "DRAFT-ONE-TARGET-GROUP",
+      "main_variable": "target",
+      "target_type": "asin",
+      "target_value": "B000000002",
+      "relationship": "complement",
+      "evidence_ids": ["E-QUERY-001", "E-PRODUCT-001"],
+      "baseline": "14-day isolated ad-group baseline",
+      "old_value": null,
+      "new_value": "add exact ASIN target",
+      "frozen_variables": ["listing", "price", "coupon", "other targets"],
+      "budget_cap": 20,
+      "success_metric": "contribution profit with relevant orders",
+      "stop_rule": "account-specific spend/sample guardrail",
+      "rollback": "pause the target",
+      "approval_status": "DRAFT"
+    }
+  ]
+}

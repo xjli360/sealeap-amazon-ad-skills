@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Ad Architecture"
+  short_description: "从阶段销量与利润目标倒推关键词、预算和广告组合架构"
+  default_prompt: "Use $sealeap-amazon-ad-architecture to build a profit-aware Amazon advertising architecture for this ASIN."

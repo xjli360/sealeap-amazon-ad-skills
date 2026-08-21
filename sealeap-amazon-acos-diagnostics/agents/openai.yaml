@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon ACOS Diagnostics"
+  short_description: "用核心指标、贡献毛利和单变量实验诊断 Amazon Ads ACOS"
+  default_prompt: "Use $sealeap-amazon-acos-diagnostics to recalculate these Amazon Ads metrics, diagnose the ACOS drivers, and draft one approval-ready experiment."
