@@ -1,12 +1,8 @@
 <div align="center">
   <p>
-    <img src="assets/sealeap-logo.png" width="116" alt="SeaLeap logo" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/amazon-advertising-logo-dark.png" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/amazon-advertising-logo-light.png" />
-      <img src="assets/amazon-advertising-logo-light.png" width="336" alt="Amazon Advertising logo" />
-    </picture>
+    <a href="https://sealeap.cn" title="Visit SeaLeap"><img src="assets/sealeap-logo.png" width="116" align="middle" alt="SeaLeap logo" /></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://advertising.amazon.com" title="Visit Amazon Ads"><img src="assets/amazon-ads-logo.png" width="336" align="middle" alt="Amazon Ads logo" /></a>
   </p>
   <h1>SeaLeap Amazon Ads Skills</h1>
   <p><strong>Give your AI agent an evidence-first Amazon Ads operating brain.</strong></p>
@@ -21,6 +17,7 @@
   </p>
 
   <p>
+    <a href="https://sealeap.cn">SeaLeap Website</a> ·
     <a href="#-skill-map">Explore the Skills</a> ·
     <a href="#-quick-start">Quick Start</a> ·
     <a href="#-how-the-skills-think">How It Works</a> ·
@@ -144,7 +141,9 @@ transcripts/          # Source-linked learning material where included
 
 ## 🌊 Built by SeaLeap
 
-SeaLeap turns e-commerce operating knowledge into reusable, auditable Agent Skills. The goal is simple: help agents and operators move faster **without losing evidence, accountability, or control**.
+[SeaLeap](https://sealeap.cn) turns e-commerce operating knowledge into reusable, auditable Agent Skills. The goal is simple: help agents and operators move faster **without losing evidence, accountability, or control**.
+
+🌐 Website: **[sealeap.cn](https://sealeap.cn)**
 
 If you are building an Amazon Ads agent, an internal operating copilot, or a repeatable advertising workflow, use these Skills as composable building blocks—not as a substitute for current account data or professional judgment.
 
