@@ -1,11 +1,20 @@
 <div align="center">
-  <img src="assets/sealeap-logo.png" width="132" alt="SeaLeap logo" />
+  <p>
+    <img src="assets/sealeap-logo.png" width="116" alt="SeaLeap logo" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/amazon-advertising-logo-dark.png" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/amazon-advertising-logo-light.png" />
+      <img src="assets/amazon-advertising-logo-light.png" width="336" alt="Amazon Advertising logo" />
+    </picture>
+  </p>
   <h1>SeaLeap Amazon Ads Skills</h1>
   <p><strong>Give your AI agent an evidence-first Amazon Ads operating brain.</strong></p>
   <p>让 Agent 不只会“给建议”，而是会诊断、会算账、会留证据、会等待人工批准。</p>
 
   <p>
     <a href="https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-amazon-ad-skills?style=for-the-badge&logo=github&color=ff9900" alt="GitHub stars" /></a>
+    <img src="https://img.shields.io/badge/Amazon_Advertising-Logo_Use_Approved-ff9900?style=for-the-badge" alt="Amazon Advertising logo use approved" />
     <img src="https://img.shields.io/badge/Agent_Skills-9-00a8e1?style=for-the-badge" alt="9 Agent Skills" />
     <img src="https://img.shields.io/badge/Evidence-First-14b8a6?style=for-the-badge" alt="Evidence first" />
     <img src="https://img.shields.io/badge/Human_Approval-Required-7c3aed?style=for-the-badge" alt="Human approval required" />
@@ -155,7 +164,7 @@ Open an issue before proposing any workflow that writes to a live advertising ac
 
 ## Trademark, source, and affiliation notice
 
-This is an independent SeaLeap-maintained repository for education, research, and agent workflow design. It is **not sponsored, endorsed, authorized, jointly published, or maintained by Amazon**. Amazon, Amazon Ads, and related marks are trademarks of Amazon.com, Inc. or its affiliates. No Amazon logo is used in this repository; use of Amazon brand elements is subject to the current [Amazon brand usage guidelines](https://advertising.amazon.com/resources/ad-policy/brand-usage).
+This is a SeaLeap-maintained repository for education, research, and agent workflow design. The Amazon Advertising logo is **used with permission** and displayed in its approved, unmodified form. That logo-use approval does not by itself state that Amazon authored, sponsored, jointly published, or maintains this repository unless a separate written authorization expressly says so. Amazon, Amazon Ads, Amazon Advertising, and related marks are trademarks of Amazon.com, Inc. or its affiliates; their use remains subject to the current [Amazon Advertising marketing guidelines](https://m.media-amazon.com/images/G/01/AmazonMarketingServices/Amazon_Advertising_Marketing_Guidelines.pdf).
 
 References to Amazon products and services are descriptive. Platform capabilities, eligibility, attribution, interfaces, and policies can change; verify them against current official documentation before acting. Source transcripts and course-derived notes, where present, remain subject to the rights of their respective owners and are included for traceability rather than as a transfer of ownership.
 
