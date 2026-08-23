@@ -9,18 +9,17 @@
   <p>让 Agent 不只会“给建议”，而是会诊断、会算账、会留证据、会等待人工批准。</p>
 
   <p>
-    <a href="https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-amazon-ad-skills?style=for-the-badge&logo=github&color=ff9900" alt="GitHub stars" /></a>
-    <img src="https://img.shields.io/badge/Amazon_Advertising-Logo_Use_Approved-ff9900?style=for-the-badge" alt="Amazon Advertising logo use approved" />
+    <a href="https://sealeap.cn"><img src="https://img.shields.io/badge/Website-sealeap.cn-0ea5e9?style=for-the-badge&logo=safari&logoColor=white" alt="SeaLeap website" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License" /></a>
     <img src="https://img.shields.io/badge/Agent_Skills-9-00a8e1?style=for-the-badge" alt="9 Agent Skills" />
-    <img src="https://img.shields.io/badge/Evidence-First-14b8a6?style=for-the-badge" alt="Evidence first" />
-    <img src="https://img.shields.io/badge/Human_Approval-Required-7c3aed?style=for-the-badge" alt="Human approval required" />
+    <a href="https://github.com/xjli360/sealeap-amazon-ad-skills/issues"><img src="https://img.shields.io/badge/Contributions-Welcome-8b5cf6?style=for-the-badge" alt="Contributions welcome" /></a>
   </p>
 
   <p>
     <a href="https://sealeap.cn">SeaLeap Website</a> ·
     <a href="#-skill-map">Explore the Skills</a> ·
     <a href="#-quick-start">Quick Start</a> ·
-    <a href="#-how-the-skills-think">How It Works</a> ·
+    <a href="#-license">License</a> ·
     <a href="#-star--contribute">Star & Contribute</a>
   </p>
 </div>
@@ -80,30 +79,6 @@ one single-variable experiment for human review.
 
 Each Skill tells the agent which reference files to load, what data is still missing, which claims are safe to make, and where human approval is mandatory.
 
-## 🧠 How the Skills think
-
-```mermaid
-flowchart LR
-    A[Business question] --> B[Lock marketplace, account, ASIN and time range]
-    B --> C[Separate evidence types]
-    C --> D[Reconcile metrics and economics]
-    D --> E[Diagnose the bottleneck]
-    E --> F[Draft one-variable experiment]
-    F --> G{Human approval?}
-    G -- No --> H[Read-only report]
-    G -- Yes --> I[Scoped action + verification + rollback]
-```
-
-The shared evidence language keeps an agent honest:
-
-| Label | Meaning |
-|---|---|
-| `ACCOUNT_FACT` / `ACCOUNT_ACTUAL` | Verified data from the current authorized account and scope |
-| `CURRENT_POLICY` | A current platform rule checked against an authoritative source |
-| `TRAINING_CASE` / `COURSE_BASELINE` | A teaching example or historical benchmark, never a live setting by itself |
-| `HYPOTHESIS` / `SELLER_HYPOTHESIS` | A testable explanation that still needs evidence |
-| `NEEDS_DATA` / `HOLD` | A hard stop: the agent must not invent the missing fact |
-
 ## 🛡️ Built-in operating guardrails
 
 - Read-only diagnosis is the default mode.
@@ -160,6 +135,12 @@ Useful contributions include:
 - fixes for broken links, ambiguous terms, or stale platform assumptions.
 
 Open an issue before proposing any workflow that writes to a live advertising account.
+
+## 📄 License
+
+SeaLeap-authored code and documentation in this repository are available under the [MIT License](LICENSE).
+
+Trademark rights, brand assets (including the Amazon Advertising and SeaLeap logos), and third-party source materials or transcripts are not granted under the MIT License. See [NOTICE](NOTICE) for details.
 
 ## Trademark, source, and affiliation notice
 
