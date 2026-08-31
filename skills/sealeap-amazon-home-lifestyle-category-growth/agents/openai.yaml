@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Home & Lifestyle Growth"
+  short_description: "验证九类生活百货选品、安全适配、物流与生命周期广告"
+  default_prompt: "Use $sealeap-amazon-home-lifestyle-category-growth to validate this home-and-lifestyle opportunity through demand, safety, fitment, logistics, and ad gates."

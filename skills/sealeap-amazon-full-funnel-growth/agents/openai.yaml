@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Full-Funnel Growth"
+  short_description: "规划可衡量、可归因的 Amazon 品牌与效果全流域增长"
+  default_prompt: "Use $sealeap-amazon-full-funnel-growth to map this customer journey, find the largest funnel leak, and draft one measurable cross-channel experiment."

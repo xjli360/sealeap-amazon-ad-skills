@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon SP Video Ads"
+  short_description: "制作、审核并测试可归因的商品推广视频广告完整工作方案"
+  default_prompt: "Use $sealeap-amazon-sp-video-ads to review this ASIN, create three compliant SP video concepts, and prepare one approval-ready test."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon EU AMC Audience"
+  short_description: "用 AMC 旅程与高潜受众证据制定可审批激活实验方案"
+  default_prompt: "Use $sealeap-amazon-eu-amc-audience to diagnose this audience opportunity and draft one privacy-safe AMC activation experiment."

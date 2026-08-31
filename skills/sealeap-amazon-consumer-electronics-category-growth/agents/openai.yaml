@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Consumer Electronics Growth"
+  short_description: "验证消费电子选品、技术合规、物流与生命周期广告增长方案"
+  default_prompt: "Use $sealeap-amazon-consumer-electronics-category-growth to validate this electronics opportunity through demand, technical, compliance, logistics, and ad gates."

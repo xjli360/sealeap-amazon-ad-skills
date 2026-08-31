@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Global Growth Planning"
+  short_description: "用人工闸门连接 AI 运营、全球站点与节日增长机会"
+  default_prompt: "Use $sealeap-amazon-global-growth-planning to turn this global opportunity into a human-governed, evidence-backed 90-day pilot."

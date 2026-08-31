@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon EU Multi-Market Ads"
+  short_description: "分站点规划欧洲标品、非标、高客单与季节广告投放实验"
+  default_prompt: "Use $sealeap-amazon-eu-multimarket-ads to score these European marketplaces and draft one localized, profit-guarded expansion test."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Creative AI"
+  short_description: "把商品与受众证据转成可审核、可测试的 AI 广告素材"
+  default_prompt: "Use $sealeap-amazon-creative-ai to turn these verified product facts into three distinct creative concepts and an approval-ready A/B test."

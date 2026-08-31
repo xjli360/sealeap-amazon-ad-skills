@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Prime Day Planning"
+  short_description: "筛选带限定条件的会员日洞察并形成可审批旺季投放计划"
+  default_prompt: "Use $sealeap-amazon-prime-day-planning to find the comparable Prime Day insight rows and draft a guarded preheat, event, and tail plan."

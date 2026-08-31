@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Fashion Category Growth"
+  short_description: "验证美欧日时尚选品、品牌、促销、库存与退货增长机会"
+  default_prompt: "Use $sealeap-amazon-fashion-category-growth to validate these fashion candidates and return a gated marketplace, inventory, and returns plan."

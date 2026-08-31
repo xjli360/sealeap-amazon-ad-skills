@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeaLeap Amazon Localization Marketing"
+  short_description: "用本地搜索、文化与政策证据重建多站点 Listing 和广告"
+  default_prompt: "Use $sealeap-amazon-localization-marketing to localize this ASIN for the target marketplace and show every fact, keyword, and review decision."
