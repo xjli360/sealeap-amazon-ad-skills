@@ -4,6 +4,7 @@
   <p><strong>搜罗全宇宙关于亚马逊电商的知识，让每一份好经验成为可复用的 Skill。</strong></p>
   <p>从官方课程到社媒公开分享，从选品、Listing 到广告、库存与经营，把知识整理成能交给 AI Agent 使用的工作流。</p>
   <p>
+    <a href="https://sealeap.cn/"><img src="https://img.shields.io/badge/Website-sealeap.cn-0ea5e9?style=for-the-badge" alt="SeaLeap 官网" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License" /></a>
     <img src="https://img.shields.io/badge/Skills-289-00a8e1?style=for-the-badge" alt="289 Skills" />
     <img src="https://img.shields.io/badge/Free-100%25-22c55e?style=for-the-badge" alt="完全免费" />
