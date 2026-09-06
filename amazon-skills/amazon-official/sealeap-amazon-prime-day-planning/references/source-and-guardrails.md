@@ -2,7 +2,7 @@
 
 ## 授权源与规范化数据
 
-- 原文件：`亚马逊会员日 - 数据洞察.xlsx`；1 个工作表，116 条记录；主题覆盖说明见根目录 `SOURCE_COVERAGE.md`。
+- 原文件：`亚马逊会员日 - 数据洞察.xlsx`；1 个工作表，116 条记录。
 - 规范化副本：`references/prime-day-insights-2025.csv`；列为 `Family Brief, Content, Metrics, Ad Products, Marketplaces`；逐行保留原英文洞察与限定条件。
 - 规范化只改变容器格式，不翻译或拆除 `Content` 内 qualifier。
 

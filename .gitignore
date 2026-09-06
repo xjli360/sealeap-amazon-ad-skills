@@ -6,3 +6,10 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Maintenance materials are kept outside the public repository.
+/evals/
+/reports/
+/scripts/
+/tests/
+/SOURCE_COVERAGE.md

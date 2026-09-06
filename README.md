@@ -94,7 +94,7 @@ cd sealeap-amazon-skills
 - **尊重内容权利**：官方授权材料在授权范围内使用，社媒公开内容经独立提炼后形成原创工作流。
 - **按实际授权操作**：诊断、方案与线上执行分开；涉及账户、预算、广告或商品变更时核对用户授权，并保留执行与回读记录。
 
-公开的官方材料覆盖说明见 [SOURCE_COVERAGE.md](SOURCE_COVERAGE.md)。官方内容的使用授权仅适用于相应材料，不表示亚马逊为整个社媒知识库背书或维护本项目。
+官方内容的使用授权仅适用于相应材料，不表示亚马逊为整个社媒知识库背书或维护本项目。
 
 ## 仓库结构
 
@@ -105,12 +105,8 @@ sealeap-amazon-skills/
 │   ├── douyin/            # 211 个 Skills
 │   ├── weixin/            # 50 个 Skills
 │   └── xiaohongshu/       # 9 个 Skills
-├── scripts/               # 校验工具
-├── tests/                 # 离线回归测试
-├── evals/cases/           # 可复验的检查用例
-├── reports/               # 不含来源身份的检查结果
+├── assets/                # 项目图片
 ├── README.md
-├── SOURCE_COVERAGE.md
 ├── LICENSE
 └── NOTICE
 ```
@@ -121,13 +117,7 @@ sealeap-amazon-skills/
 
 欢迎提交新的知识主题、匿名化实践案例、失效链接修复、规则更新和工作流改进。提交 Issue 或 Pull Request 时，请只描述业务问题和提炼后的方法，不附带具体 KOL 身份、原始转录、私人来源映射或凭证。
 
-提交前可运行本地检查：
-
-```bash
-uv run --no-project --with pyyaml python -B scripts/validate_skill_names.py
-uv run --no-project --with pyyaml python -B scripts/validate_social_skills.py --doctor
-python3 -B scripts/audit_public_content.py
-```
+提交内容需通过名称、资源引用和来源身份检查；每个 Skill 应能独立使用。
 
 如果这个项目对你有帮助，欢迎 [Star](https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers)，让更多亚马逊卖家和 Agent 开发者找到它。
 

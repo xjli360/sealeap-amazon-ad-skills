@@ -6,7 +6,7 @@
 - `2-商品推广视频样式SPv视频拍摄指南.pdf`，21 页；
 - `3-商品推广视频样式SPv-syndication PPT (1).pptx`，9 页。
 
-主题覆盖说明见根目录 `SOURCE_COVERAGE.md`。本 Skill 是操作抽象，不复制原材料图文。
+本 Skill 是操作抽象，不复制原材料图文。
 
 ## 课程规格快照
 
