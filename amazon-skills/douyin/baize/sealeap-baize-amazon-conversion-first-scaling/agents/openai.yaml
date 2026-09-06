@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 转化优先扩量"
+  short_description: "Amazon 转化优先扩量：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-conversion-first-scaling to diagnose this Amazon task and return an evidence-gated plan."

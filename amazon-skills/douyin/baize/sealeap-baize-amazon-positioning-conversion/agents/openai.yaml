@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 定位与页面转化提升"
+  short_description: "Amazon 定位与页面转化提升：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-positioning-conversion to diagnose this Amazon task and return an evidence-gated plan."

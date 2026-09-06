@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 品牌、内容与增长：评价与口碑、政策变化、Listing 诊断"
+  short_description: "用证据和审批处理 Amazon 评价与口碑、政策变化、Listing 诊断"
+  default_prompt: "Use $sealeap-yinglong-amazon-brand-growth-reviews to 以只读方式处理 评价与口碑、政策变化、Listing 诊断；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

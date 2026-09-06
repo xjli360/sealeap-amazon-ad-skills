@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 蓝海假设验证"
+  short_description: "Amazon 蓝海假设验证：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-blue-ocean-validation to diagnose this Amazon task and return an evidence-gated plan."

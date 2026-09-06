@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 内容原生化 Listing 测试"
+  short_description: "把熟悉内容结构转成合规附图或 A+ 实验，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-jiuwei-amazon-content-native-listing-test to 定位素材理解问题，选择一种问答或场景结构用于附图/A+，排除虚假社交证明并做单变量测试。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

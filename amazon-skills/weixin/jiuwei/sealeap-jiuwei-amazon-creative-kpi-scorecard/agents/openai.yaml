@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 电商设计 KPI 评分卡"
+  short_description: "把设计可控的准确性、信息层级、移动端可读性、合规和交付质量，与运营共同承担的实验和业"
+  default_prompt: "Use $sealeap-jiuwei-amazon-creative-kpi-scorecard to 把设计可控的准确性、信息层级、移动端可读性、合规和交付质量，与运营共同承担的实验和业务结果分开评价。 基于真实产品和买家证据；默认只读，任何线上变更先展示并等待明确批准。"
+

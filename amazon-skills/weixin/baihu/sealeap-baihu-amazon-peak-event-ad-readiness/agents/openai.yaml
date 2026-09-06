@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 大促广告就绪检查"
+  short_description: "按活动日倒排商品、库存、优惠、关键词、素材和预算准备度，让已验证流量优先承担旺季目标"
+  default_prompt: "Use $sealeap-baihu-amazon-peak-event-ad-readiness to 按活动日倒排商品、库存、优惠、关键词、素材和预算准备度，让已验证流量优先承担旺季目标，并给探索流量明确上限。 区分事实、估算、假设和未知项；默认只读，任何广告写操作先展示影响并等待明确批准。"
+

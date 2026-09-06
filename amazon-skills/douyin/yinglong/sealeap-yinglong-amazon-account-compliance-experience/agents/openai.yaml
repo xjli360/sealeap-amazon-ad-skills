@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 账户、合规与风险：经营经验"
+  short_description: "用证据和审批处理 Amazon 经营经验，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-yinglong-amazon-account-compliance-experience to 以只读方式处理 经营经验；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

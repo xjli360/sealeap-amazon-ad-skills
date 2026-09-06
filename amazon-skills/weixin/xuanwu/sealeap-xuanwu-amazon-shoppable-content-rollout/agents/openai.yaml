@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 可购物内容轮播上线"
+  short_description: "先确认账户当前可用模块和替换影响，再用真实目录关系设计可购物轮播，通过移动端预览和受"
+  default_prompt: "Use $sealeap-xuanwu-amazon-shoppable-content-rollout to 先确认账户当前可用模块和替换影响，再用真实目录关系设计可购物轮播，通过移动端预览和受控实验判断价值。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

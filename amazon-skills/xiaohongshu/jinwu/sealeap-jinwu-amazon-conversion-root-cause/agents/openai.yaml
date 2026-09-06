@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 不出单的根因排查：流量、准确性与产品力"
+  short_description: "用证据和审批处理 Amazon 三步排查顺序、流量准确性 vs 产品力、细分市场转化基准、补货决策的数据陷阱"
+  default_prompt: "Use $sealeap-jinwu-amazon-conversion-root-cause to 以只读方式处理三步排查顺序、流量准确性 vs 产品力、细分市场转化基准、补货决策的数据陷阱；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

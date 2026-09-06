@@ -1,0 +1,13 @@
+{
+  "id": "public-content-privacy",
+  "request": "发布整个项目之前，删除可识别具体 KOL 的信息，并检查实际发布文件与 Git 历史。",
+  "checks": [
+    "Scan file contents and names, including Unicode-escaped identifiers",
+    "Reject creator attributions, source account metadata and social source links",
+    "Reject private source mappings, raw transcripts and unreviewed binaries",
+    "Accept anonymous methods and current official documentation links",
+    "Check the exact Git tree selected for publication",
+    "Report historical findings separately from current working tree findings",
+    "Never echo matched identities, credentials or source text in audit output"
+  ]
+}

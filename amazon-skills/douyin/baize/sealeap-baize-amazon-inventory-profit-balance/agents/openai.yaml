@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 库存与利润平衡"
+  short_description: "Amazon 库存与利润平衡：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-inventory-profit-balance to diagnose this Amazon task and return an evidence-gated plan."

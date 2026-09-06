@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 自然排名提升实验"
+  short_description: "Amazon 自然排名提升实验：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-organic-rank-test to diagnose this Amazon task and return an evidence-gated plan."

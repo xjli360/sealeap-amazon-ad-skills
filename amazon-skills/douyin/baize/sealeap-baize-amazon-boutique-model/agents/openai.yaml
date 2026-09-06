@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 精品商业模型"
+  short_description: "Amazon 精品商业模型：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-boutique-model to diagnose this Amazon task and return an evidence-gated plan."

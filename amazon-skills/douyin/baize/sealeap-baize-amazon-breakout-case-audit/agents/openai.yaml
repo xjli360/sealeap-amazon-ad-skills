@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 爆款案例因果审计"
+  short_description: "Amazon 爆款案例因果审计：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-breakout-case-audit to diagnose this Amazon task and return an evidence-gated plan."

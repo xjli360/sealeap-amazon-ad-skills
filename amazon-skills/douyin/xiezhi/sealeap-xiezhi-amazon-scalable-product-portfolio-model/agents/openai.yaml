@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 可复制产品组合模式"
+  short_description: "可复制产品组合模式，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-scalable-product-portfolio-model to 把单条链接的偶然成功转化为可复制的选品、供应链、推广、补货和淘汰系统，并控制单品依赖风险。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

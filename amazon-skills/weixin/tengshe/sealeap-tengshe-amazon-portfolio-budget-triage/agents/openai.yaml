@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 商品组合预算分诊"
+  short_description: "停止平均撒预算，按商品贡献、证据、成熟度、库存和修复可行性分组，给少数可学习对象足够"
+  default_prompt: "Use $sealeap-tengshe-amazon-portfolio-budget-triage to 停止平均撒预算，按商品贡献、证据、成熟度、库存和修复可行性分组，给少数可学习对象足够但有限的预算。 区分事实、估算、假设和未知项；默认只读，任何写操作等待明确批准。"
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 断货后流量恢复"
+  short_description: "Amazon 断货后流量恢复：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-stockout-recovery to diagnose this Amazon task and return an evidence-gated plan."

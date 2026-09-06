@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 目标价需求计划"
+  short_description: "先验证目标站点的价格历史、提醒或自动购买功能，再把不同触发价的需求作为情景而非已知事"
+  default_prompt: "Use $sealeap-kunpeng-amazon-price-alert-demand-plan to 先验证目标站点的价格历史、提醒或自动购买功能，再把不同触发价的需求作为情景而非已知事实，用毛利和库存控制价格试验。 明确证据和未知项；默认只读，高风险判断需专业复核，任何写操作等待明确批准。"
+

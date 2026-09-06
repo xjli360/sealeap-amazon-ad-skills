@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 主图可识别差异测试"
+  short_description: "在类目合规内测试一个主图识别变量，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-jiuwei-amazon-main-image-distinctiveness-test to 先完成主图合规审计，再以同口径竞品视觉矩阵提出一个合法差异变量，运行 CTR/CVR 联合判断的可回退测试。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Listing 与页面操作：Listing 诊断、政策变化、标题"
+  short_description: "用证据和审批处理 Amazon Listing 诊断、政策变化、标题"
+  default_prompt: "Use $sealeap-yinglong-amazon-listing-operations-listing to 以只读方式处理 Listing 诊断、政策变化、标题；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

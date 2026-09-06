@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon AMC 受众激活"
+  short_description: "构建隐私安全的 AMC 自定义受众与增量测试，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-baihu-amazon-amc-audience-activation to 先检查标准受众，再用最少 AMC 字段构建自定义人群假设、隐私检查、激活对照与增量复盘。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

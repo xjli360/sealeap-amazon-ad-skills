@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon AI 工具评估"
+  short_description: "从真实业务问题和人工基线出发，用同一测试集验证准确性、节省时间、数据风险和可回退性，"
+  default_prompt: "Use $sealeap-kunpeng-amazon-ai-tool-evaluation to 从真实业务问题和人工基线出发，用同一测试集验证准确性、节省时间、数据风险和可回退性，避免因热点或演示效果盲目换工具。 明确证据和未知项；默认只读，高风险判断需专业复核，任何写操作等待明确批准。"
+

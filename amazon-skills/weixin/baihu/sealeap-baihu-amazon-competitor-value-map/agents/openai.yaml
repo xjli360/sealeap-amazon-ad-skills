@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 竞品价值地图"
+  short_description: "按真实购买任务选择可比商品，分开事实、客户反馈和推断，识别可证明的价值缺口并形成自有"
+  default_prompt: "Use $sealeap-baihu-amazon-competitor-value-map to 按真实购买任务选择可比商品，分开事实、客户反馈和推断，识别可证明的价值缺口并形成自有验证计划。 区分事实、估算、假设和未知项；默认只读，任何广告写操作先展示影响并等待明确批准。"
+

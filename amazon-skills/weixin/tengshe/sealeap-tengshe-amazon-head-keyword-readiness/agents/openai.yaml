@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 大词投放就绪度"
+  short_description: "用相关性、经济性和库存判断大词试投，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-tengshe-amazon-head-keyword-readiness to 为一个目标大词计算承接、保本 CPC、单量情景与库存风险，只在通过门槛后设计限额单变量试验。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

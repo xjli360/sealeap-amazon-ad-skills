@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 选品八道闸门"
+  short_description: "选品八道闸门，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-product-selection-eight-gates to 用八个相互独立的门槛把候选从有趣方向推进到可审计立项，任何关键证据缺失都保持 HOLD。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

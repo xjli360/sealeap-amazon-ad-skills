@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 跨境经营复盘：关键词排名、广告曝光、归因分析"
+  short_description: "用证据和审批处理 Amazon 关键词排名、广告曝光、归因分析"
+  default_prompt: "Use $sealeap-yinglong-amazon-operator-review-keyword-rank to 以只读方式处理 关键词排名、广告曝光、归因分析；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

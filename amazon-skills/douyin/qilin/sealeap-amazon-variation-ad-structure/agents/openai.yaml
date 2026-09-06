@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 多变体广告架构"
+  short_description: "确定主推变体、按属性分词并隔离广告职责，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-variation-ad-structure to 确定主推变体、按属性分词并隔离广告职责。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

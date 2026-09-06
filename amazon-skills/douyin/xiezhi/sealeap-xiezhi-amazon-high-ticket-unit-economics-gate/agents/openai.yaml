@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 高客单单位经济闸门"
+  short_description: "高客单单位经济闸门，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-high-ticket-unit-economics-gate to 不把高价当作机会本身，而用实际成本、CPC 与 CVR 验证更高售价是否带来足够的广告和清货容错。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

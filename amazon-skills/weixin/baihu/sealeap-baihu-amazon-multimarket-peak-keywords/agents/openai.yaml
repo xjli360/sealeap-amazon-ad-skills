@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 多站点旺季关键词"
+  short_description: "建立分站点本地化旺季词库与测试日历，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-baihu-amazon-multimarket-peak-keywords to 按站点分别验证季节搜索表达、Listing 承接、广告经济性和库存窗口，输出本地化词库和测试日历。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

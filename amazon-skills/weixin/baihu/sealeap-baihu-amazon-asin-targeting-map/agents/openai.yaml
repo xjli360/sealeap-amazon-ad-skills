@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon ASIN 定向地图"
+  short_description: "根据业务目标和商品关系建立可解释的 ASIN/品类定向分组，用匹配目标报告持续校准，"
+  default_prompt: "Use $sealeap-baihu-amazon-asin-targeting-map to 根据业务目标和商品关系建立可解释的 ASIN/品类定向分组，用匹配目标报告持续校准，而不是依赖低竞价卡位传言。 区分事实、估算、假设和未知项；默认只读，任何广告写操作先展示影响并等待明确批准。"
+

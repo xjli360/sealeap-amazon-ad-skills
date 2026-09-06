@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 店铺订单承载扩张"
+  short_description: "店铺订单承载扩张，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-store-order-capacity-scaling to 把货架宽度与店铺真实承载能力分开，按订单稳定性、利润、库存和团队容量分阶段扩充 SKU。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

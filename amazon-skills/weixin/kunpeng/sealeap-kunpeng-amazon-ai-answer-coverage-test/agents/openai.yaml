@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon AI 购物问答覆盖测试"
+  short_description: "用中立买家问题采样当前 AI 购物答案，逐条核对准确性、完整性和证据来源，再通过可证"
+  default_prompt: "Use $sealeap-kunpeng-amazon-ai-answer-coverage-test to 用中立买家问题采样当前 AI 购物答案，逐条核对准确性、完整性和证据来源，再通过可证明的页面字段做受控改进。 明确证据和未知项；默认只读，高风险判断需专业复核，任何写操作等待明确批准。"
+

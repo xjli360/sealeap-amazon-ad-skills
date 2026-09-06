@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon AI Listing 生产线"
+  short_description: "Amazon AI Listing 生产线：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-ai-listing-pipeline to diagnose this Amazon task and return an evidence-gated plan."

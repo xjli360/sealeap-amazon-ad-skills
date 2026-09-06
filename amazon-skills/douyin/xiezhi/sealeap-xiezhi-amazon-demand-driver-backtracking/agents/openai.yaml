@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 热销需求驱动回溯"
+  short_description: "热销需求驱动回溯，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-demand-driver-backtracking to 把销量当作结果而非答案，追溯真实购买动因，再横向扩场景、纵向扩人群和产品形态。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

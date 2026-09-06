@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 部分退款决策"
+  short_description: "先确认订单类型和当前可用方案，再比较客户结果、逆向物流、残值、欺诈风险与合规成本，形"
+  default_prompt: "Use $sealeap-xuanwu-amazon-partial-refund-decision to 先确认订单类型和当前可用方案，再比较客户结果、逆向物流、残值、欺诈风险与合规成本，形成有阈值的退款决策。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

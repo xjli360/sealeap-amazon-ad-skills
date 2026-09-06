@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 精铺广告盈利控制"
+  short_description: "Amazon 精铺广告盈利控制：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-spread-ad-profit to diagnose this Amazon task and return an evidence-gated plan."

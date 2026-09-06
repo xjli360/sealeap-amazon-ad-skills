@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 退货率降低"
+  short_description: "用官方商品支持、说明和零配件闭环减少可避免退货，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-return-rate-reduction to 用官方商品支持、说明和零配件闭环减少可避免退货。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

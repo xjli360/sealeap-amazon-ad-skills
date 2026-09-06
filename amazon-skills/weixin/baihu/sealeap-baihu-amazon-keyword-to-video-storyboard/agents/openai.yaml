@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 关键词到视频分镜"
+  short_description: "把关键词背后的购买任务、疑问和证明转成画面顺序，先确保产品事实与广告规格，再生成和测"
+  default_prompt: "Use $sealeap-baihu-amazon-keyword-to-video-storyboard to 把关键词背后的购买任务、疑问和证明转成画面顺序，先确保产品事实与广告规格，再生成和测试视频版本。 区分事实、估算、假设和未知项；默认只读，任何广告写操作先展示影响并等待明确批准。"
+

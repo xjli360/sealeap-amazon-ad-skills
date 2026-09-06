@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 场景驱动差异化"
+  short_description: "场景驱动差异化，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-scenario-led-differentiation to 在不盲目开模的前提下，用真实人群与使用任务重定义产品，使关键词、竞品、页面表达和购买理由同步改变。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

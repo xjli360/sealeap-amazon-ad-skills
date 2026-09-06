@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 合规边界：知识产权初筛、评论政策与竞品异常识别"
+  short_description: "用证据和审批处理 Amazon 知识产权三类初筛、请求评论与差评沟通的边界、早期评论计划的解读、竞品异常起量的证据链"
+  default_prompt: "Use $sealeap-jinwu-amazon-compliance-reviews-ip to 以只读方式处理知识产权三类初筛、请求评论与差评沟通的边界、早期评论计划的解读、竞品异常起量的证据链；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

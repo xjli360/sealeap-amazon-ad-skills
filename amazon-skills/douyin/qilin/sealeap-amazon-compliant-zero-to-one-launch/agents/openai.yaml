@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 合规从零到一推广"
+  short_description: "从高意图长尾词向中部词扩展的合规新品路径，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-compliant-zero-to-one-launch to 从高意图长尾词向中部词扩展的合规新品路径。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

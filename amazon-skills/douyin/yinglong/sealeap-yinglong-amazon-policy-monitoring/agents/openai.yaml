@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 平台政策与异常监控：政策变化、运营工具、类目与节点"
+  short_description: "用证据和审批处理 Amazon 政策变化、运营工具、类目与节点"
+  default_prompt: "Use $sealeap-yinglong-amazon-policy-monitoring to 以只读方式处理 政策变化、运营工具、类目与节点；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

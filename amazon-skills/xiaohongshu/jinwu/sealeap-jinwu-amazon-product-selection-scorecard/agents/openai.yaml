@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 选品记分卡：核心指标、冷门切入与工厂合作"
+  short_description: "用证据和审批处理 Amazon 四项核心选品指标、大卖看不上的细分切入、标品与非标品的结构差异、工厂首批小单框架"
+  default_prompt: "Use $sealeap-jinwu-amazon-product-selection-scorecard to 以只读方式处理四项核心选品指标、大卖看不上的细分切入、标品与非标品的结构差异、工厂首批小单框架；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 商品运营难度评估"
+  short_description: "Amazon 商品运营难度评估：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-operating-difficulty to diagnose this Amazon task and return an evidence-gated plan."

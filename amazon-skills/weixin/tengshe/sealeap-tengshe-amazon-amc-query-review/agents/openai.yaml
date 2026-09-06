@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon AMC 查询审查"
+  short_description: "从业务问题反推事件粒度和输出，检查连接放大、重复计数、时间/归因口径和聚合阈值，确保"
+  default_prompt: "Use $sealeap-tengshe-amazon-amc-query-review to 从业务问题反推事件粒度和输出，检查连接放大、重复计数、时间/归因口径和聚合阈值，确保 SQL 结果可解释且隐私安全。 区分事实、估算、假设和未知项；默认只读，任何写操作等待明确批准。"
+

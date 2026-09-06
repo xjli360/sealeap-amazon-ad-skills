@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 展示广告漏斗计划"
+  short_description: "按漏斗目标设计展示广告受众试验，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-baihu-amazon-display-ads-funnel-plan to 为一个拉新、考虑、召回或复购目标选择展示广告定向，设计小预算对照试验并以增量和净贡献决定扩量。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 环保声明证据审计"
+  short_description: "逐项把环保声明连接到具体 SKU、材料、认证范围和有效期，当前项目资格另行核验，无法"
+  default_prompt: "Use $sealeap-kunpeng-amazon-environmental-claim-evidence to 逐项把环保声明连接到具体 SKU、材料、认证范围和有效期，当前项目资格另行核验，无法证明的表述删除或保持 HOLD。 明确证据和未知项；默认只读，高风险判断需专业复核，任何写操作等待明确批准。"
+

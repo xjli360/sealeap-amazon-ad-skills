@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告流量分配"
+  short_description: "先找高转化组合，再把预算从差流量移向好流量，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-ad-traffic-allocation to 先找高转化组合，再把预算从差流量移向好流量。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

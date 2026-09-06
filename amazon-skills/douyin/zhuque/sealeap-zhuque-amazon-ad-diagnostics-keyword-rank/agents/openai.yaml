@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告诊断与实验：关键词排名、利润模型、政策变化"
+  short_description: "用证据和审批处理 Amazon 关键词排名、利润模型、政策变化"
+  default_prompt: "Use $sealeap-zhuque-amazon-ad-diagnostics-keyword-rank to 以只读方式处理 关键词排名、利润模型、政策变化；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

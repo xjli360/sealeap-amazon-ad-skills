@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 费用、利润与现金流：供应链、发货与入库、现金流"
+  short_description: "用证据和审批处理 Amazon 供应链、发货与入库、现金流"
+  default_prompt: "Use $sealeap-pixiu-amazon-finance-profit-supply-chain to 以只读方式处理 供应链、发货与入库、现金流；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

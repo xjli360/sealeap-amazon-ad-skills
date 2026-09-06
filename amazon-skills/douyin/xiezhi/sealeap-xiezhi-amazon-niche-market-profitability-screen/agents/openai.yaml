@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 冷门细分盈利筛选"
+  short_description: "冷门细分盈利筛选，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-niche-market-profitability-screen to 把冷门定义为有精准需求、可解释的正常销量和较低直接竞争，并用单位经济与库存边界验证。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

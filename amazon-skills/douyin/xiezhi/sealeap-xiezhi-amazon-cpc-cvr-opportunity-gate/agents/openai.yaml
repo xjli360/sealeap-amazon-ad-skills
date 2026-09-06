@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon CPC-CVR 机会快判"
+  short_description: "CPC-CVR 机会快判，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-cpc-cvr-opportunity-gate to 用精准流量成本和可达转化区间淘汰明显无法盈利的候选，把深研资源留给有证据的方向。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

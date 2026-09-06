@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告相关性启动"
+  short_description: "广告相关性启动，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-ad-relevance-weight-bootstrap to 用精准购物意图、页面一致性和受控学习预算积累可解释的点击与转化信号，而不是依赖未经证实的权重公式。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

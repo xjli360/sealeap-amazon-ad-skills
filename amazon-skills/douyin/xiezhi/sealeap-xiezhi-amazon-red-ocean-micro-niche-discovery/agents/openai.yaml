@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 红海微细分发现"
+  short_description: "红海微细分发现，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-red-ocean-micro-niche-discovery to 从红海类目中定位近期正常做起的低评论差异样本，提取其精准属性，再发现未被充分覆盖的相邻微细分。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

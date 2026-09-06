@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Featured Offer 丢失排查"
+  short_description: "从账户、价格、Offer、商品信息与侵权证据排查购物车"
+  default_prompt: "Use $sealeap-amazon-featured-offer-loss-triage to 从账户、价格、Offer、商品信息与侵权证据排查购物车。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon B2B 商采机会闸门"
+  short_description: "验证企业采购需求、批量经济性与履约能力，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xuanwu-amazon-b2b-opportunity-gate to 验证 ASIN 的企业采购任务、数量折扣、单位经济、单证与大单履约，再给出可回退的 B2B 试点或 HOLD 结论。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

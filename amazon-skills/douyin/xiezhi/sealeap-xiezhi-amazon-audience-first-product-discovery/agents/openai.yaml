@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 人群优先选品"
+  short_description: "人群优先选品，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-audience-first-product-discovery to 从身份明确且需求持续的人群出发，把其生活与活动场景转化为一条可验证的产品机会线。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

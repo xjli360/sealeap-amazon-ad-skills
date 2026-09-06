@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 搜索词精准迁移"
+  short_description: "区分后台关键词与买家实际搜索词，只把有重复相关和经济证据的查询迁入精准结构，并在否定"
+  default_prompt: "Use $sealeap-tengshe-amazon-search-term-migration to 区分后台关键词与买家实际搜索词，只把有重复相关和经济证据的查询迁入精准结构，并在否定原来源前检查增量与重叠。 区分事实、估算、假设和未知项；默认只读，任何写操作等待明确批准。"
+

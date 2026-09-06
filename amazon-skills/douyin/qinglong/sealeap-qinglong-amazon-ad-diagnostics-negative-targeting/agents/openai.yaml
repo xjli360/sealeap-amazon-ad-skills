@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告诊断与实验：否定投放、搜索词分析、手动广告"
+  short_description: "用证据和审批处理 Amazon 否定投放、搜索词分析、手动广告"
+  default_prompt: "Use $sealeap-qinglong-amazon-ad-diagnostics-negative-targeting to 以只读方式处理 否定投放、搜索词分析、手动广告；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

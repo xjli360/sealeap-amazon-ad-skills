@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon SP 广告框架审计"
+  short_description: "按目标、搜索词证据和经济性审计 SP 架构，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-tengshe-amazon-sp-ad-framework-audit to 统一广告与业务数据口径，把 SP 单元按发现、验证、防守、扩量分类，输出有止损的单变量优化顺序。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

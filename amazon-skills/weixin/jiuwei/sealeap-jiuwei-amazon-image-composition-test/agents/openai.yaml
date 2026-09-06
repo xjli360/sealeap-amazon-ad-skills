@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 图片构图转化测试"
+  short_description: "让一张图只承担一个购买问题，用真实比例、明确层级和可证明信息设计构图，并在移动端做单"
+  default_prompt: "Use $sealeap-jiuwei-amazon-image-composition-test to 让一张图只承担一个购买问题，用真实比例、明确层级和可证明信息设计构图，并在移动端做单变量转化测试。 基于真实产品和买家证据；默认只读，任何线上变更先展示并等待明确批准。"
+

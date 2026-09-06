@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 买家问题附图简报"
+  short_description: "用一张合规附图回答一个高频购买疑问，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-jiuwei-amazon-buyer-question-image-brief to 从退货、客服和搜索证据选一个买家问题，为答案绑定产品事实，产出移动端可读的单图设计简报。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

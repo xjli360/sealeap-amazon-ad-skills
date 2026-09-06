@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 季节性冷门机会筛选"
+  short_description: "季节性冷门机会筛选，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-seasonal-blue-ocean-screening to 从历史月份和未来进场窗口中找出有明确需求、直接竞品较少且能继续验证的候选细分市场。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

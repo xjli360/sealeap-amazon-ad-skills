@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 卖家入场可行性评估"
+  short_description: "用利润、现金流、能力与市场匹配判断是否入场，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-seller-entry-assessment to 用利润、现金流、能力与市场匹配判断是否入场。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

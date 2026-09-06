@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 每周运营节奏"
+  short_description: "先处理账户、库存和利润异常，再以固定但可调整的周节奏复盘广告、内容和产品；每项工作都"
+  default_prompt: "Use $sealeap-tengshe-amazon-weekly-operating-cadence to 先处理账户、库存和利润异常，再以固定但可调整的周节奏复盘广告、内容和产品；每项工作都绑定阈值、负责人和决策。 区分事实、估算、假设和未知项；默认只读，任何写操作等待明确批准。"
+

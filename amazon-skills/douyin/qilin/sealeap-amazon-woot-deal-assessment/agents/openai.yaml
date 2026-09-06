@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Woot Deal 可行性评估"
+  short_description: "核验官方资格并评估 Woot 活动的利润与风险，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-woot-deal-assessment to 核验官方资格并评估 Woot 活动的利润与风险。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

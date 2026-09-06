@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 关键词结构：广度、词库、词级投产与否定原则"
+  short_description: "用证据和审批处理 Amazon 标品与非标品的关键词广度、词库四维分类、按词级投产模型选词、否定的‘不准确 ≠ 不相关’"
+  default_prompt: "Use $sealeap-jinwu-amazon-keyword-structure-negatives to 以只读方式处理标品与非标品的关键词广度、词库四维分类、按词级投产模型选词、否定的‘不准确 ≠ 不相关’；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

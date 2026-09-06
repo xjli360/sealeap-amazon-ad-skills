@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 可复制组合六赛道"
+  short_description: "可复制组合六赛道，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-scalable-portfolio-six-lanes to 按团队能力把候选分入六种结构性机会赛道，每种赛道使用独立证据和风险门槛。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

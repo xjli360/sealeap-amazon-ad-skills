@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 关键词权重假设"
+  short_description: "Amazon 关键词权重假设：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-keyword-weight-model to diagnose this Amazon task and return an evidence-gated plan."

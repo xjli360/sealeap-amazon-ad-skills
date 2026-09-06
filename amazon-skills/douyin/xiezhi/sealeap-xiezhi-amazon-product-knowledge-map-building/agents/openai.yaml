@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 产品认知地图训练"
+  short_description: "产品认知地图训练，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-product-knowledge-map-building to 先扩大对海外产品、人物和场景的认知，再把陌生商品转化为可继续研究的需求线索，而不是立即判断做或不做。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

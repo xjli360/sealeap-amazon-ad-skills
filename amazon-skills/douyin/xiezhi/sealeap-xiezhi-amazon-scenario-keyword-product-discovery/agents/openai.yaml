@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 场景词选品"
+  short_description: "场景词选品，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-scenario-keyword-product-discovery to 先找到可搜索的具体场景，再为该场景中的消费者挑选产品，从而把大众商品迁移到更清晰的细分需求。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

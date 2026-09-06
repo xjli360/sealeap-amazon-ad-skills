@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 品牌故事模块规划"
+  short_description: "先确认当前账户里 Brand Story 与可购物集合的关系，再用品牌事实、目录路径"
+  default_prompt: "Use $sealeap-tengshe-amazon-brand-story-module-plan to 先确认当前账户里 Brand Story 与可购物集合的关系，再用品牌事实、目录路径和买家任务安排卡片，并小范围验证。 区分事实、估算、假设和未知项；默认只读，任何写操作等待明确批准。"
+

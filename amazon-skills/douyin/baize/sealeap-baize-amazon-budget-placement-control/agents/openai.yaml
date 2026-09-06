@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 预算与广告位控制"
+  short_description: "Amazon 预算与广告位控制：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-budget-placement-control to diagnose this Amazon task and return an evidence-gated plan."

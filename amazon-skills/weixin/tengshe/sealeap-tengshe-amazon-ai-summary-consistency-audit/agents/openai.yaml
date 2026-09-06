@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon AI 摘要一致性审计"
+  short_description: "在固定站点和设备采样 AI 摘要/音频，把每个陈述回溯到产品事实或可识别证据，再优先"
+  default_prompt: "Use $sealeap-tengshe-amazon-ai-summary-consistency-audit to 在固定站点和设备采样 AI 摘要/音频，把每个陈述回溯到产品事实或可识别证据，再优先修复权威字段中的真实缺口。 区分事实、估算、假设和未知项；默认只读，任何写操作等待明确批准。"
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 新品受众信号控制"
+  short_description: "Amazon 新品受众信号控制：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-audience-signal-launch to diagnose this Amazon task and return an evidence-gated plan."

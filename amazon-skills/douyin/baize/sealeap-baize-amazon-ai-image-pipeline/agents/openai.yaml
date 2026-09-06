@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon AI 商品图工作流"
+  short_description: "Amazon AI 商品图工作流：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-ai-image-pipeline to diagnose this Amazon task and return an evidence-gated plan."

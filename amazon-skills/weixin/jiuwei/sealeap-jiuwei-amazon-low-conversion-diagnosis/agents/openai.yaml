@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 有点击低转化诊断"
+  short_description: "沿曝光—点击—页面—报价—购买路径找到第一个失效环节，区分流量错配、承接问题和市场变"
+  default_prompt: "Use $sealeap-jiuwei-amazon-low-conversion-diagnosis to 沿曝光—点击—页面—报价—购买路径找到第一个失效环节，区分流量错配、承接问题和市场变化，再只修一个主要变量。 基于真实产品和买家证据；默认只读，任何线上变更先展示并等待明确批准。"
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 感知价值文案简报"
+  short_description: "把产品事实依次连接到优势、客户结果和证明，用高感知表达降低理解成本，但所有体验词都受"
+  default_prompt: "Use $sealeap-jiuwei-amazon-perceived-value-copy-brief to 把产品事实依次连接到优势、客户结果和证明，用高感知表达降低理解成本，但所有体验词都受证据与适用条件约束。 基于真实产品和买家证据；默认只读，任何线上变更先展示并等待明确批准。"
+

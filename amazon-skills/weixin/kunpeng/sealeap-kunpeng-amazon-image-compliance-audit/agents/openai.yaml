@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 图片合规审计"
+  short_description: "定位图片拒绝、替换或抑制的可验证原因，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-kunpeng-amazon-image-compliance-audit to 保存前后台证据，按当前通用和类目规则逐图审计，只提出最小合规修复并跟踪提交状态。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

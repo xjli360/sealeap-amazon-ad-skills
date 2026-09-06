@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告位转化差异诊断"
+  short_description: "用广告位实验寻找更适合商品竞争力的展示环境，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-placement-conversion-gap to 用广告位实验寻找更适合商品竞争力的展示环境。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

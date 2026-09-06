@@ -1,0 +1,187 @@
+{
+  "date": "2026-09-05",
+  "evaluation": "Independent offline behavioral evaluation of the shared MCP helper",
+  "script_sha256": "76a3572bb7344a6a340e520bd4238048565013115aa62e8dcf5c4214367f5a76",
+  "case_count": 18,
+  "actual_network_calls": 0,
+  "real_credentials_used": false,
+  "all_business_data_synthetic": true,
+  "cases": [
+    {
+      "name": "01_doctor",
+      "exit_code": 0,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "02_offline_valid_schema_plan",
+      "exit_code": 0,
+      "business_call_count": 0,
+      "output_exists": true,
+      "output_unchanged": null,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "03_offline_bad-type",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "04_offline_bad-enum",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "05_offline_bad-limit",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "06_authorized_keyword_result",
+      "exit_code": 0,
+      "business_call_count": 1,
+      "output_exists": true,
+      "output_unchanged": null,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "07_existing_output_preflight",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": true,
+      "output_unchanged": true,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "08_live_schema_changed",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "09_force_upstream_failure",
+      "exit_code": 2,
+      "business_call_count": 1,
+      "output_exists": true,
+      "output_unchanged": true,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "10_force_atomic_write_failure",
+      "exit_code": 2,
+      "business_call_count": 1,
+      "output_exists": true,
+      "output_unchanged": true,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "11_force_success",
+      "exit_code": 0,
+      "business_call_count": 1,
+      "output_exists": true,
+      "output_unchanged": false,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "12_call_without_output",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "13_apify_reviewed_budget_plan",
+      "exit_code": 0,
+      "business_call_count": 0,
+      "output_exists": true,
+      "output_unchanged": null,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "14_apify_reviewed_budget_call",
+      "exit_code": 0,
+      "business_call_count": 1,
+      "output_exists": true,
+      "output_unchanged": null,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    },
+    {
+      "name": "15_actor_mismatch",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "16_actor_not_reviewed",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "17_live_budget_field_unsupported",
+      "exit_code": 2,
+      "business_call_count": 0,
+      "output_exists": false,
+      "output_unchanged": null,
+      "output_mode": null,
+      "output_contains_fixture_credential": null
+    },
+    {
+      "name": "18_same_actor_unreviewed_url",
+      "exit_code": 0,
+      "business_call_count": 1,
+      "output_exists": true,
+      "output_unchanged": null,
+      "output_mode": "0o600",
+      "output_contains_fixture_credential": false
+    }
+  ],
+  "recovery_verified": {
+    "tool_error_preserves_run_id": true,
+    "output_failed_after_call_preserves_request_id": true,
+    "old_result_preserved": true,
+    "recovery_file_mode": "0600",
+    "automatic_retries": 0,
+    "fixture_credentials_redacted": true
+  },
+  "limitations": [
+    "Approved Actor identity does not enforce URL authorization or prove Actor behavior; case 18 demonstrates this boundary.",
+    "A valid budget parameter in a synthetic schema does not prove provider billing enforcement.",
+    "Provider availability, actual authentication, and paid business operations were not tested.",
+    "Reproducible local regressions are in tests/test_social_skill_mcp.py."
+  ]
+}

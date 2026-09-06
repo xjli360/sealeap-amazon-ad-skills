@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 新品自然流量培育"
+  short_description: "从精准流量验证到自然订单增长的新品广告路线，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-amazon-new-product-organic-traffic to 从精准流量验证到自然订单增长的新品广告路线。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

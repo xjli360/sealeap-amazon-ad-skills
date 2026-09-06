@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 选品与产品开发：FBM、发货与入库、图片与视频"
+  short_description: "用证据和审批处理 Amazon FBM、发货与入库、图片与视频"
+  default_prompt: "Use $sealeap-pixiu-amazon-product-research-fbm to 以只读方式处理 FBM、发货与入库、图片与视频；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

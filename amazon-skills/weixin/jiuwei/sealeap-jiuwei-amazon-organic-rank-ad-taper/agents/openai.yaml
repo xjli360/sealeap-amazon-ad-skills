@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 自然排名后广告递减"
+  short_description: "确认关键词自然表现稳定后，小步降低同词付费强度，同时观察总点击、订单、搜索份额、利润"
+  default_prompt: "Use $sealeap-jiuwei-amazon-organic-rank-ad-taper to 确认关键词自然表现稳定后，小步降低同词付费强度，同时观察总点击、订单、搜索份额、利润和自然位置，必要时立即恢复。 基于真实产品和买家证据；默认只读，任何线上变更先展示并等待明确批准。"
+

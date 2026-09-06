@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 受限商品响应"
+  short_description: "保存原始通知，区分商品本体、类目资格、法律要求和页面声明问题，以真实证据决定整改、争"
+  default_prompt: "Use $sealeap-xuanwu-amazon-restricted-product-response to 保存原始通知，区分商品本体、类目资格、法律要求和页面声明问题，以真实证据决定整改、争议或停止销售。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

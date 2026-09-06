@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon MCF 渠道经济性"
+  short_description: "把多渠道履约从功能宣传变成逐渠道单位经济、时效、包装、库存和退货验证，先小规模试点再"
+  default_prompt: "Use $sealeap-xuanwu-amazon-mcf-channel-economics to 把多渠道履约从功能宣传变成逐渠道单位经济、时效、包装、库存和退货验证，先小规模试点再决定扩量。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

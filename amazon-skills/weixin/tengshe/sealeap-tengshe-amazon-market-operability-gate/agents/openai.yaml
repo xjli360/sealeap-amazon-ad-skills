@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 市场可运营性门"
+  short_description: "需求和竞争只是起点；把产品购买理由、信任门槛、供应合规、单位经济和团队执行能力放进同"
+  default_prompt: "Use $sealeap-tengshe-amazon-market-operability-gate to 需求和竞争只是起点；把产品购买理由、信任门槛、供应合规、单位经济和团队执行能力放进同一进入决策。 区分事实、估算、假设和未知项；默认只读，任何写操作等待明确批准。"
+

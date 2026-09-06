@@ -1,176 +1,137 @@
 <div align="center">
+  <p><a href="https://sealeap.cn"><img src="assets/sealeap-logo.png" width="116" alt="SeaLeap" /></a></p>
+  <h1>SeaLeap Amazon Skills</h1>
+  <p><strong>搜罗全宇宙关于亚马逊电商的知识，让每一份好经验成为可复用的 Skill。</strong></p>
+  <p>从官方课程到社媒公开分享，从选品、Listing 到广告、库存与经营，把知识整理成能交给 AI Agent 使用的工作流。</p>
   <p>
-    <a href="https://sealeap.cn" title="Visit SeaLeap"><img src="assets/sealeap-logo.png" width="116" align="middle" alt="SeaLeap logo" /></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://advertising.amazon.com" title="Visit Amazon Ads"><img src="assets/amazon-ads-logo.png" width="336" align="middle" alt="Amazon Ads logo" /></a>
-  </p>
-  <h1>SeaLeap Amazon Ads Skills</h1>
-  <p><strong>Give your AI agent an evidence-first Amazon Ads operating brain.</strong></p>
-  <p>让 Agent 不只会“给建议”，而是会诊断、会算账、会留证据、会等待人工批准。</p>
-
-  <p>
-    <a href="https://sealeap.cn"><img src="https://img.shields.io/badge/Website-sealeap.cn-0ea5e9?style=for-the-badge&logo=safari&logoColor=white" alt="SeaLeap website" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License" /></a>
-    <a href="https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-amazon-ad-skills?style=for-the-badge&logo=github&color=ff9900" alt="GitHub stars" /></a>
-    <img src="https://img.shields.io/badge/Amazon_Ads-Official_Content_Authorized-ff9900?style=for-the-badge" alt="Amazon Ads official content authorized for use" />
-    <img src="https://img.shields.io/badge/Agent_Skills-19-00a8e1?style=for-the-badge" alt="19 Agent Skills" />
-    <a href="https://github.com/xjli360/sealeap-amazon-ad-skills/issues"><img src="https://img.shields.io/badge/Contributions-Welcome-8b5cf6?style=for-the-badge" alt="Contributions welcome" /></a>
+    <img src="https://img.shields.io/badge/Skills-289-00a8e1?style=for-the-badge" alt="289 Skills" />
+    <img src="https://img.shields.io/badge/Free-100%25-22c55e?style=for-the-badge" alt="完全免费" />
+    <img src="https://img.shields.io/badge/Status-Continuously_Updated-ff9900?style=for-the-badge" alt="持续更新中" />
+    <a href="https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-amazon-ad-skills?style=for-the-badge&logo=github" alt="GitHub stars" /></a>
   </p>
-
-  <p>
-    <a href="https://sealeap.cn">SeaLeap Website</a> ·
-    <a href="#-skill-map">Explore the Skills</a> ·
-    <a href="#-quick-start">Quick Start</a> ·
-    <a href="#-license">License</a> ·
-    <a href="#-star--contribute">Star & Contribute</a>
-  </p>
+  <p><a href="#项目目标">项目目标</a> · <a href="#技能目录">技能目录</a> · <a href="#开始使用">开始使用</a> · <a href="#免费开源承诺">免费开源承诺</a> · <a href="#持续更新与贡献">参与贡献</a></p>
 </div>
 
----
+## 项目目标
 
-> [!IMPORTANT]
-> **Amazon Ads 官方内容授权**
->
-> 本仓库所使用并提炼的 Amazon Ads 课程与官方材料，均为 **Amazon Ads 官方授权 SeaLeap 使用的内容**。SeaLeap 在授权范围内对这些材料进行结构化整理、方法提炼与 Agent Skill 化，并保留来源、快照时点和执行护栏。
->
-> **Official content authorization:** The Amazon Ads courses and official materials distilled in this repository are content that Amazon Ads has officially authorized SeaLeap to use. SeaLeap independently converts the authorized source material into structured Agent Skills with source traceability and operating guardrails.
+**搜罗全宇宙关于亚马逊电商的知识。** SeaLeap 希望把分散在不同平台、不同形式里的实用经验，整理成一个持续生长的亚马逊电商知识库和 Agent Skill 库。
 
-## Why this repository
+收录与整理的范围包括：
 
-Most AI advice for Amazon Ads sounds confident but cannot show its work. This collection is built for a different standard:
+- **亚马逊官方授权内容**：在授权范围内整理官方课程、培训材料与行业资料。
+- **亚马逊官方公众号内容**：提炼公开发布的运营指南、产品解读、案例与行业洞察。
+- **抖音、微信、小红书等社媒公开内容**：提炼亚马逊电商知识领袖公开分享中的方法、判断条件与操作经验。
+- **更多公开知识来源**：持续扩展有价值的官方文档、公开研究与实践方法。
 
-- **Operational, not generic** — each Skill has a concrete workflow, input expectations, output contract, and decision gates.
-- **Evidence-aware** — account facts, current platform policy, training cases, and hypotheses stay explicitly separated.
-- **Profit-aware** — ACOS is connected to CPC, CVR, contribution margin, inventory, returns, and lifecycle goals.
-- **Agent-ready** — every directory under `skills/` is a self-contained Skill with a standard `SKILL.md` entrypoint.
-- **Human-controlled** — diagnosis and drafts are the default; live changes require explicit, itemized approval.
+“全宇宙”是我们持续搜集的目标。每次更新都把知识转化为独立编写的工作流、输入清单、决策依据、操作步骤和交付模板，方便卖家学习，也方便 AI Agent 调用。
 
-> **One rule runs through every Skill:** never turn a course example, benchmark, or AI guess into a live campaign setting without current account evidence.
+覆盖方向包括选品与市场研究、竞品与关键词、Listing 与创意、广告投放、库存与利润、品牌增长、多站点经营、合规检查，以及 AI 辅助运营。
 
-## 🧭 Skill map
+## 免费开源承诺
 
-| Skill | What it helps an agent do | Best for |
-|---|---|---|
-| [ACOS Diagnostics](skills/sealeap-amazon-acos-diagnostics/) | Reconcile ACOS, profit drivers, placement/search terms, and peer benchmarks | High ACOS, weak conversion, unclear break-even point |
-| [Ad Architecture](skills/sealeap-amazon-ad-architecture/) | Work backward from sales and profit goals into campaign roles, keywords, budgets, and stages | Launch architecture, portfolio design, seasonal planning |
-| [EU & Peak AMC Audiences](skills/sealeap-amazon-eu-amc-audience/) | Plan privacy-safe journey analysis, no-code/rule/lookalike audiences, activation, and evaluation | AMC, Europe, peak audiences, path/time-to-conversion, remarketing |
-| [Full-Funnel Growth](skills/sealeap-amazon-full-funnel-growth/) | Map awareness-to-loyalty journeys, retail readiness, channel roles, and incrementality tests | Brand + performance, high-ticket journeys, cross-channel measurement |
-| [SP Video Ads](skills/sealeap-amazon-sp-video-ads/) | Brief, review, bid, and test Sponsored Products video-format ads | SPV eligibility, silent product video, video CTR/CVR/ACOS |
-| [Creative AI](skills/sealeap-amazon-creative-ai/) | Turn verified product and audience evidence into reviewable AI creative experiments | Creative Agent/Studio, AI video/copy/image briefs, A/B tests |
-| [Localization Marketing](skills/sealeap-amazon-localization-marketing/) | Rebuild local search language, Listing copy, and creative for each marketplace | Translation, multilingual keywords, culture and policy review |
-| [Prime Day Planning](skills/sealeap-amazon-prime-day-planning/) | Query 116 qualified insight records and create guarded preheat/event/tail plans | Prime Day, ROAS/DPV/Units/Sales slices, event planning |
-| [EU Multi-Market Ads](skills/sealeap-amazon-eu-multimarket-ads/) | Stage localized expansion for standard, non-standard, high-ticket, and seasonal products | UK/DE expansion, emerging EU markets, back-to-school |
-| [Global Growth Planning](skills/sealeap-amazon-global-growth-planning/) | Connect human-governed AI workflows, site sequencing, and verified opportunity calendars | AI operations, global expansion, April holiday opportunities |
-| [Fashion Category Growth](skills/sealeap-amazon-fashion-category-growth/) | Validate US/EU/JP fashion trends through brand, promotion, inventory, and returns gates | Apparel/shoes/bags/jewelry selection and category operations |
-| [Consumer Electronics Growth](skills/sealeap-amazon-consumer-electronics-category-growth/) | Validate CE demand, technical facts, compliance, logistics, and lifecycle ads | Wireless, electronics, PC, camera, office, musical instruments |
-| [Home & Lifestyle Growth](skills/sealeap-amazon-home-lifestyle-category-growth/) | Validate nine OHL segments through safety, fitment, logistics, and ad gates | Home, kitchen, furniture, auto, garden, sports, toys, pets |
-| [US Apparel Lifecycle Ads](skills/sealeap-amazon-apparel-lifecycle-ads/) | Diagnose long-, short-, and seasonal-lifecycle apparel products with US playbooks | Fashion, underwear, swimwear, suits, accessories |
-| [Canada Apparel Ads](skills/sealeap-amazon-ca-apparel-ads/) | Combine lifecycle, bilingual discovery, margin, and inventory guardrails | Amazon.ca apparel, coats, undergarments |
-| [Japan Apparel Ads](skills/sealeap-amazon-jp-apparel-ads/) | Apply Japan-specific language, seasonality, Points, and lifecycle evidence | Bags, underwear, swimwear, localized launches |
-| [UK Apparel Ads](skills/sealeap-amazon-uk-apparel-ads/) | Combine UK lifecycle, sizing, returns, compliance, and advertising economics | Black Friday, Boxing Day, swimwear, outerwear |
-| [Listing Optimizer](skills/sealeap-amazon-listing-optimizer/) | Audit and draft titles, bullets, attributes, search terms, images, A+, video, and tests | CTR/CVR gaps, indexing, return prevention |
-| [Product Targeting](skills/sealeap-amazon-product-targeting/) | Build ASIN/category pools for competitor, substitute, complement, cross-sell, and defense | Product/category targeting, detail-page traffic, ASIN defense |
+**本项目公开发布的所有 Skills、代码与原创文档，承诺完全免费、开源，持续更新。**
 
-## ⚡ Quick start
+你可以免费获取、使用、修改和分享这些内容，并按 [MIT License](LICENSE) 用于个人学习、团队运营或商业项目。未来新增的 Skills 同样遵循这一承诺。
 
-Clone the collection:
+免费开源适用于本项目的整理成果；第三方原始文章、课程、音视频与商标仍属于其权利人。公开版本只发布独立编写的知识提炼和工作流，不发布原始课程、逐字转录、社媒原帖或个人来源映射。详见 [NOTICE](NOTICE)。
+
+部分 Skills 可选接入第三方数据或模型服务；这些服务的费用由提供方决定，使用本仓库本身不收费。
+
+## 技能目录
+
+截至 **2026-09-06**，仓库包含 **289 个独立 Skills**。每个 Skill 都使用 `sealeap-...` 名称，并拥有同名安装目录。
+
+| 集合 | Skills | 内容方向 | 入口 |
+|---|---:|---|---|
+| 亚马逊官方内容 | 19 | 官方授权材料、广告、品类增长与多站点经营 | [amazon-official](amazon-skills/amazon-official/) |
+| 抖音公开知识 | 211 | 选品、广告、关键词、转化、库存与 AI 运营 | [douyin](amazon-skills/douyin/) |
+| 微信公开知识 | 50 | 经营诊断、内容创意、增长与运营决策 | [weixin](amazon-skills/weixin/) |
+| 小红书公开知识 | 9 | 起步模式、选品、流量、广告与库存运维 | [xiaohongshu](amazon-skills/xiaohongshu/) |
+| **合计** | **289** | **持续更新中** | |
+
+官方内容集合中的现有 Skills：
+
+| 方向 | Skills |
+|---|---|
+| 广告诊断与结构 | [ACOS 诊断](amazon-skills/amazon-official/sealeap-amazon-acos-diagnostics/)、[广告架构](amazon-skills/amazon-official/sealeap-amazon-ad-architecture/)、[商品定向](amazon-skills/amazon-official/sealeap-amazon-product-targeting/) |
+| 增长与市场 | [全流域增长](amazon-skills/amazon-official/sealeap-amazon-full-funnel-growth/)、[全球增长规划](amazon-skills/amazon-official/sealeap-amazon-global-growth-planning/)、[本土化营销](amazon-skills/amazon-official/sealeap-amazon-localization-marketing/)、[Prime Day 规划](amazon-skills/amazon-official/sealeap-amazon-prime-day-planning/) |
+| 品类经营 | [时尚](amazon-skills/amazon-official/sealeap-amazon-fashion-category-growth/)、[消费电子](amazon-skills/amazon-official/sealeap-amazon-consumer-electronics-category-growth/)、[生活百货](amazon-skills/amazon-official/sealeap-amazon-home-lifestyle-category-growth/) |
+| 服饰广告 | [美国生命周期](amazon-skills/amazon-official/sealeap-amazon-apparel-lifecycle-ads/)、[加拿大](amazon-skills/amazon-official/sealeap-amazon-ca-apparel-ads/)、[日本](amazon-skills/amazon-official/sealeap-amazon-jp-apparel-ads/)、[英国](amazon-skills/amazon-official/sealeap-amazon-uk-apparel-ads/) |
+| 欧洲市场 | [多站点广告](amazon-skills/amazon-official/sealeap-amazon-eu-multimarket-ads/)、[AMC 受众](amazon-skills/amazon-official/sealeap-amazon-eu-amc-audience/) |
+| 页面与创意 | [Listing 优化](amazon-skills/amazon-official/sealeap-amazon-listing-optimizer/)、[AI 创意](amazon-skills/amazon-official/sealeap-amazon-creative-ai/)、[商品推广视频](amazon-skills/amazon-official/sealeap-amazon-sp-video-ads/) |
+
+社媒集合使用中性的分组代号组织内容。代号不公开对应任何具体创作者；公开文件不包含 KOL 姓名、昵称、账号、联系方式、个人主页、原帖链接或身份映射。
+
+## 开始使用
+
+克隆仓库：
 
 ```bash
-git clone https://github.com/xjli360/sealeap-amazon-ad-skills.git
-cd sealeap-amazon-ad-skills
+git clone https://github.com/xjli360/sealeap-amazon-ad-skills.git sealeap-amazon-skills
+cd sealeap-amazon-skills
 ```
 
-Choose the Skill that matches the job, then point your agent to `skills/<skill-name>/SKILL.md` or copy that directory into the Skills directory supported by your agent runtime. See [SOURCE_COVERAGE.md](SOURCE_COVERAGE.md) for the complete 2026-08-31 source-to-Skill registry.
+在上方目录中选择一个 Skill，读取它的 `SKILL.md`，或将整个 Skill 目录复制到你的 Agent 所支持的 Skills 目录。保留其中的 `references/`、`agents/` 和 `scripts/`，以便使用配套材料。
 
-Example prompt:
+例如：
 
 ```text
-Use sealeap-amazon-acos-diagnostics in DIAGNOSE mode.
-
-Marketplace: US
-Date range: last 30 days
-Goal: determine whether the ACOS problem is driven by CPC, CVR,
-traffic mix, attribution, or unit economics.
-
-Do not change campaigns. Show missing evidence and propose exactly
-one single-variable experiment for human review.
+使用 sealeap-amazon-acos-diagnostics。
+站点：美国站
+时间范围：最近 30 天
+目标：判断 ACOS 问题来自点击成本、转化、流量结构还是利润结构。
+请先列出需要的数据，再给出诊断、证据缺口和可验证的优化方案。
 ```
 
-Each Skill tells the agent which reference files to load, what data is still missing, which claims are safe to make, and where human approval is mandatory.
+每个 Skill 都说明适用任务、必要输入、参考资料和预期输出。遇到缺失数据，Agent 应明确标记未知；课程示例和历史经验需要结合当前账户、站点和官方规则重新核验。
 
-## 🛡️ Built-in operating guardrails
+## 整理原则
 
-- Read-only diagnosis is the default mode.
-- Marketplace, profile, seller, store, ASIN, SKU, currency, attribution window, and date range must stay explicit.
-- Campaign writes require current scope verification and itemized human approval.
-- Every change plan includes evidence, expected effect, stop condition, and rollback value.
-- One experiment changes one primary variable so the result remains attributable.
-- Listing claims must be backed by verified product facts; competitor copy and invented claims are out of bounds.
-- AMC workflows stay aggregated and privacy-safe; no user-level export or re-identification.
+- **提炼实用知识**：保留能改变判断或指导操作的方法，形成可独立使用的 Skill。
+- **保护来源身份**：删除具体创作者信息及可反查个人身份的线索；原始资料和私人映射不进入公开仓库。
+- **保留证据边界**：区分当前事实、历史案例、估算与假设；无法核实的内容明确标记。
+- **尊重内容权利**：官方授权材料在授权范围内使用，社媒公开内容经独立提炼后形成原创工作流。
+- **按实际授权操作**：诊断、方案与线上执行分开；涉及账户、预算、广告或商品变更时核对用户授权，并保留执行与回读记录。
 
-## 📦 Repository structure
+公开的官方材料覆盖说明见 [SOURCE_COVERAGE.md](SOURCE_COVERAGE.md)。官方内容的使用授权仅适用于相应材料，不表示亚马逊为整个社媒知识库背书或维护本项目。
+
+## 仓库结构
 
 ```text
-sealeap-amazon-ad-skills/
-├── assets/
-├── skills/
-│   ├── sealeap-amazon-acos-diagnostics/
-│   ├── sealeap-amazon-eu-amc-audience/
-│   ├── sealeap-amazon-sp-video-ads/
-│   └── ... 16 more self-contained Skills
+sealeap-amazon-skills/
+├── amazon-skills/
+│   ├── amazon-official/   # 19 个 Skills
+│   ├── douyin/            # 211 个 Skills
+│   ├── weixin/            # 50 个 Skills
+│   └── xiaohongshu/       # 9 个 Skills
+├── scripts/               # 校验工具
+├── tests/                 # 离线回归测试
+├── evals/cases/           # 可复验的检查用例
+├── reports/               # 不含来源身份的检查结果
 ├── README.md
-└── SOURCE_COVERAGE.md
+├── SOURCE_COVERAGE.md
+├── LICENSE
+└── NOTICE
 ```
 
-A Skill may include:
+## 持续更新与贡献
 
-```text
-SKILL.md              # Agent entrypoint and operating workflow
-agents/openai.yaml    # Optional agent-facing metadata
-references/           # Evidence model, playbooks, examples, output contracts
-scripts/              # Deterministic checks and analysis helpers
-transcripts/          # Source-linked learning material where included
+**持续更新中。** 我们会继续搜集公开知识、补充业务场景、修正过时内容，并改进 Skills 的可用性。
+
+欢迎提交新的知识主题、匿名化实践案例、失效链接修复、规则更新和工作流改进。提交 Issue 或 Pull Request 时，请只描述业务问题和提炼后的方法，不附带具体 KOL 身份、原始转录、私人来源映射或凭证。
+
+提交前可运行本地检查：
+
+```bash
+uv run --no-project --with pyyaml python -B scripts/validate_skill_names.py
+uv run --no-project --with pyyaml python -B scripts/validate_social_skills.py --doctor
+python3 -B scripts/audit_public_content.py
 ```
 
-## 🌊 Built by SeaLeap
-
-[SeaLeap](https://sealeap.cn) turns e-commerce operating knowledge into reusable, auditable Agent Skills. The goal is simple: help agents and operators move faster **without losing evidence, accountability, or control**.
-
-🌐 Website: **[sealeap.cn](https://sealeap.cn)**
-
-If you are building an Amazon Ads agent, an internal operating copilot, or a repeatable advertising workflow, use these Skills as composable building blocks—not as a substitute for current account data or professional judgment.
-
-## ⭐ Star & contribute
-
-If this repository saves one wasted budget cycle, one unsupported claim, or one irreversible campaign change, please **[give it a star](https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers)**. It helps more operators and Agent builders discover the project.
-
-Useful contributions include:
-
-- marketplace-specific policy refreshes with authoritative citations;
-- anonymized test cases and reproducible metric checks;
-- safer output contracts, approval gates, and rollback patterns;
-- new marketplace or category Skills that preserve the same evidence standard;
-- fixes for broken links, ambiguous terms, or stale platform assumptions.
-
-Open an issue before proposing any workflow that writes to a live advertising account.
-
-## 📄 License
-
-SeaLeap-authored code and documentation in this repository are available under the [MIT License](LICENSE).
-
-Trademark rights, brand assets (including the Amazon Advertising and SeaLeap logos), and third-party source materials or transcripts are not granted under the MIT License. See [NOTICE](NOTICE) for details.
-
-## Trademark, source, and affiliation notice
-
-This is a SeaLeap-maintained repository for education, research, and agent workflow design. The Amazon Ads courses and official materials distilled here are **officially authorized by Amazon Ads for SeaLeap's use**. SeaLeap independently performs the structural conversion, workflow design, source mapping, and Skill maintenance.
-
-The Amazon Advertising logo is **used with permission** and displayed in its approved, unmodified form. The authorization to use source content and approved brand assets does not by itself state that Amazon authored, reviewed, sponsored, jointly published, endorses, or maintains this repository. Amazon, Amazon Ads, Amazon Advertising, and related marks are trademarks of Amazon.com, Inc. or its affiliates; their use remains subject to the current [Amazon Advertising marketing guidelines](https://m.media-amazon.com/images/G/01/AmazonMarketingServices/Amazon_Advertising_Marketing_Guidelines.pdf).
-
-References to Amazon products and services are descriptive. Platform capabilities, eligibility, attribution, interfaces, and policies can change; verify them against current official documentation before acting. Source transcripts and course-derived notes, where present, remain subject to the rights of their respective owners and are included for traceability rather than as a transfer of ownership.
-
----
+如果这个项目对你有帮助，欢迎 [Star](https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers)，让更多亚马逊卖家和 Agent 开发者找到它。
 
 <div align="center">
-  <strong>Evidence before confidence. Approval before action.</strong><br />
-  <sub>Made with 🌊 by SeaLeap</sub>
+  <p><strong>知识持续汇聚，成果免费开源。</strong></p>
+  <p>由 <a href="https://sealeap.cn">SeaLeap</a> 维护</p>
 </div>

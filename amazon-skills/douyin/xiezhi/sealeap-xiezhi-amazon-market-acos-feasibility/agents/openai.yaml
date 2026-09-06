@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 市场 ACoS 可承受性"
+  short_description: "市场 ACoS 可承受性，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-market-acos-feasibility to 把 ACoS 拆回 CPC、CVR、售价、贡献毛利和复购价值，先判断商业模型能否承受市场，再选择广告动作。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

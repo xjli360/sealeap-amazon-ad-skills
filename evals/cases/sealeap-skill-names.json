@@ -1,0 +1,21 @@
+{
+  "id": "sealeap-skill-names",
+  "request": "四个目录里的 Skill 名字必须是 sealeap-xx 格式，以 sealeap 开头。",
+  "scopes": [
+    "amazon-skills/amazon-official",
+    "amazon-skills/douyin",
+    "amazon-skills/weixin",
+    "amazon-skills/xiaohongshu"
+  ],
+  "name_pattern": "sealeap-[a-z0-9]+(?:-[a-z0-9]+)*",
+  "max_name_length": 63,
+  "checks": [
+    "Every scope contains Skills with valid YAML names",
+    "Names match the required prefix and lowercase hyphen format",
+    "Names are unique across all four scopes",
+    "Each installation directory matches its Skill name",
+    "Each default prompt invokes its current Skill name",
+    "Collection indexes and review links resolve after renaming"
+  ],
+  "reference_documents": ["reports/social-skills-review-2026-09-05.md"]
+}

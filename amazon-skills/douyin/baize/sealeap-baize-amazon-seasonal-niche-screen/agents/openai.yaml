@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 季节性细分选品"
+  short_description: "Amazon 季节性细分选品：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-seasonal-niche-screen to diagnose this Amazon task and return an evidence-gated plan."

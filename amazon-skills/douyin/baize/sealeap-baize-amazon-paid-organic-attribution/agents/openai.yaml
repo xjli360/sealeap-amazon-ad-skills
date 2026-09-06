@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告与自然订单归因"
+  short_description: "Amazon 广告与自然订单归因：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-paid-organic-attribution to diagnose this Amazon task and return an evidence-gated plan."

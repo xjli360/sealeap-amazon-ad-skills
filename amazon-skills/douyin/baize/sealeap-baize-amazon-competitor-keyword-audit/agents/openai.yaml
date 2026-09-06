@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 竞品关键词结构审计"
+  short_description: "Amazon 竞品关键词结构审计：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-competitor-keyword-audit to diagnose this Amazon task and return an evidence-gated plan."

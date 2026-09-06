@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 季节 Listing 生命周期"
+  short_description: "季节 Listing 生命周期，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-seasonal-listing-lifecycle to 把季节产品当作可复盘的年度循环，沉淀真实评价、素材、供应和广告经验，同时严格遵守变体与评价政策。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

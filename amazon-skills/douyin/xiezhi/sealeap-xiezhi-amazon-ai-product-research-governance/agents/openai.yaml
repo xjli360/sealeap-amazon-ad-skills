@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon AI 选品判断治理"
+  short_description: "AI 选品判断治理，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-ai-product-research-governance to 让 AI 承担批量取数、整理和反证，而把竞品定义、需求真实性、差异化取舍与最终立项保留在人类决策门内。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

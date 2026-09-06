@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 商品转化根因排查"
+  short_description: "Amazon 商品转化根因排查：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-conversion-root-cause to diagnose this Amazon task and return an evidence-gated plan."

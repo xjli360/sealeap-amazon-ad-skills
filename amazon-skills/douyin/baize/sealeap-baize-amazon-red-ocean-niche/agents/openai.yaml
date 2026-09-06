@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 红海类目细分机会"
+  short_description: "Amazon 红海类目细分机会：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-red-ocean-niche to diagnose this Amazon task and return an evidence-gated plan."

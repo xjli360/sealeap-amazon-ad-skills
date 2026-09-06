@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon ACoS 转化驱动诊断"
+  short_description: "用关键词转化率和 CPC 拆解高 ACoS 的真实原因"
+  default_prompt: "Use $sealeap-amazon-acos-conversion-diagnostics to 用关键词转化率和 CPC 拆解高 ACoS 的真实原因。先获取必要数据，区分事实、估算和假设，输出可审核方案；执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

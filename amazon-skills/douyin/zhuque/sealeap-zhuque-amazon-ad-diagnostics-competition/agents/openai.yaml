@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告诊断与实验：竞品验证、商品投放、关键词体系"
+  short_description: "用证据和审批处理 Amazon 竞品验证、商品投放、关键词体系"
+  default_prompt: "Use $sealeap-zhuque-amazon-ad-diagnostics-competition to 以只读方式处理 竞品验证、商品投放、关键词体系；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

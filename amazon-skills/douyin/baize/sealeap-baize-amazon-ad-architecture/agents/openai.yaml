@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告架构设计"
+  short_description: "Amazon 广告架构设计：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-ad-architecture to diagnose this Amazon task and return an evidence-gated plan."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 品牌、内容与增长：成本结构、客服与工单、汇率风险"
+  short_description: "用证据和审批处理 Amazon 成本结构、客服与工单、汇率风险"
+  default_prompt: "Use $sealeap-qinglong-amazon-brand-growth-cost to 以只读方式处理 成本结构、客服与工单、汇率风险；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

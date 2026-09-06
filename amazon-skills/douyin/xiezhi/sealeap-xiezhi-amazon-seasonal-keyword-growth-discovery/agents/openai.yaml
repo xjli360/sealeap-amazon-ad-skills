@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 季节关键词增长选品"
+  short_description: "季节关键词增长选品，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-seasonal-keyword-growth-discovery to 通过历史同比/环比和目标月份的搜索增长寻找事件型精准词，再从低价入口产品扩展更可盈利的同场景需求。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告诊断与实验：SP 广告、新品启动、广告位"
+  short_description: "用证据和审批处理 Amazon SP 广告、新品启动、广告位"
+  default_prompt: "Use $sealeap-zhuque-amazon-ad-diagnostics-sp-ads to 以只读方式处理 SP 广告、新品启动、广告位；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"

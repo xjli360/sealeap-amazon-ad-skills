@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 新站点经验迁移"
+  short_description: "把源站经验拆成可复用资产与必须本地重验的假设，以站点级合规、需求、单位经济和广告证据"
+  default_prompt: "Use $sealeap-baihu-amazon-new-market-launch-transfer to 把源站经验拆成可复用资产与必须本地重验的假设，以站点级合规、需求、单位经济和广告证据决定上线。 区分事实、估算、假设和未知项；默认只读，任何广告写操作先展示影响并等待明确批准。"
+

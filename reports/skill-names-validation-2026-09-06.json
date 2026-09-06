@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "case": "sealeap-skill-names",
+  "skills": 289,
+  "scopes": {
+    "amazon-skills/amazon-official": 19,
+    "amazon-skills/douyin": 211,
+    "amazon-skills/weixin": 50,
+    "amazon-skills/xiaohongshu": 9
+  },
+  "unique_names": 289,
+  "local_links": 125,
+  "errors": []
+}

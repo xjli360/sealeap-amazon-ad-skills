@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 跨类目通用词选品"
+  short_description: "跨类目通用词选品，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-cross-category-attribute-keyword-research to 以消费者可搜索的通用属性为入口跨类目发现需求，再用盈利与竞争门槛收敛，而不是依赖一套固定参数。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

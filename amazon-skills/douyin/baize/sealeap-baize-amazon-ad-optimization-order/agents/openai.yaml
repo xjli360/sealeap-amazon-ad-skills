@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 广告优化顺序"
+  short_description: "Amazon 广告优化顺序：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-ad-optimization-order to diagnose this Amazon task and return an evidence-gated plan."

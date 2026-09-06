@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 小预算 FBA 验证"
+  short_description: "小预算 FBA 验证，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-small-budget-fba-validation to 以资金上限和学习目标为约束，用少量真实产品完成注册、选品、采购、入仓、销售与回款闭环，并保留退出能力。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

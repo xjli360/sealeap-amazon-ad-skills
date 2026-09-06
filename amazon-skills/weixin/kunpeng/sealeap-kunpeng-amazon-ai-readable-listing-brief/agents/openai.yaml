@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon AI 可读 Listing 简报"
+  short_description: "把产品证据组织成清晰可比较的 Listing 简报"
+  default_prompt: "Use $sealeap-kunpeng-amazon-ai-readable-listing-brief to 从买家问题和产品证据建立字段覆盖矩阵，起草人和 AI 都易理解的 Listing 简报，并安排单变量实验。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 工厂能力与市场匹配"
+  short_description: "工厂能力与市场匹配，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-factory-capability-market-matching to 不把供应链优势误当市场优势，而将材料与工艺能力组合到具体人群、场景和任务中寻找可经营需求。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

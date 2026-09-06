@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 盈利边界广告运营"
+  short_description: "盈利边界广告运营，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-profit-bound-ad-operations to 从选品阶段就限定精准流量和可承受点击，用小型广告结构寻找每个 SKU 的盈利流量区间，并及时降级失败品。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

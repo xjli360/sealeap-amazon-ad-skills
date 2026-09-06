@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Listing 与广告词映射"
+  short_description: "Amazon Listing 与广告词映射：证据化诊断、方案与单变量验证"
+  default_prompt: "Use $sealeap-baize-amazon-listing-keyword-map to diagnose this Amazon task and return an evidence-gated plan."

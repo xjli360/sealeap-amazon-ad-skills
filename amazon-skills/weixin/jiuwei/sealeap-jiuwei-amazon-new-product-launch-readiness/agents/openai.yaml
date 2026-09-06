@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 新品推广就绪门"
+  short_description: "把新品推广拆成产品、合规、报价、内容、库存、流量和度量七个就绪门；广告只在页面和商业"
+  default_prompt: "Use $sealeap-jiuwei-amazon-new-product-launch-readiness to 把新品推广拆成产品、合规、报价、内容、库存、流量和度量七个就绪门；广告只在页面和商业模型能承接时启动。 基于真实产品和买家证据；默认只读，任何线上变更先展示并等待明确批准。"
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 三因子机会粗筛"
+  short_description: "用销量、价格和评论压缩候选集，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-three-factor-opportunity-screen to 用销量、价格和评论三维启发式快速减少样本，再对陌生细分机会做严格二次验证。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

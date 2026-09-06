@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 产品到细分市场重定位"
+  short_description: "产品到细分市场重定位，依据真实证据形成可复核的判断与行动方案"
+  default_prompt: "Use $sealeap-xiezhi-amazon-product-to-market-repositioning to 从产品资源出发寻找新的购买对象、场景和关键词，使竞争集合与价值主张真正改变。 区分事实、估算、假设和未知项；默认只读，执行写操作前核对已有授权；未覆盖的对象、动作或预算才请求批准。"

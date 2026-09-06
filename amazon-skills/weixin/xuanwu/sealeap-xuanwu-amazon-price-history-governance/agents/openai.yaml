@@ -1,0 +1,5 @@
+interface:
+  display_name: "Amazon 价格历史治理"
+  short_description: "用真实价格时间线和单位经济管理日常价与促销价，避免频繁摆动、虚假参考价或只为制造折扣"
+  default_prompt: "Use $sealeap-xuanwu-amazon-price-history-governance to 用真实价格时间线和单位经济管理日常价与促销价，避免频繁摆动、虚假参考价或只为制造折扣而改价。 区分事实、估算、假设和未知项；默认只读，任何写操作先展示影响并等待明确批准。"
+

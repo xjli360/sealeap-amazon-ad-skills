@@ -1,1 +1,8 @@
 .DS_Store
+.source-materials/
+**/transcripts/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

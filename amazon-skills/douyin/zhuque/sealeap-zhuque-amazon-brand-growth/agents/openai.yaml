@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon 品牌、内容与增长：图片与视频、运营工具、AI 工作流"
+  short_description: "用证据和审批处理 Amazon 图片与视频、运营工具、AI 工作流"
+  default_prompt: "Use $sealeap-zhuque-amazon-brand-growth to 以只读方式处理 图片与视频、运营工具、AI 工作流；区分事实、估算、假设和未知项，任何写操作先展示影响并等待明确批准。"
