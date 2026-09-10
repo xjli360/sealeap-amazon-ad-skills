@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/Skills-289-00a8e1?style=for-the-badge" alt="289 Skills" />
     <img src="https://img.shields.io/badge/Free-100%25-22c55e?style=for-the-badge" alt="完全免费" />
     <img src="https://img.shields.io/badge/Status-Continuously_Updated-ff9900?style=for-the-badge" alt="持续更新中" />
-    <a href="https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-amazon-ad-skills?style=for-the-badge&logo=github" alt="GitHub stars" /></a>
+    <a href="https://github.com/xjli360/sealeap-amazon-skills/stargazers"><img src="https://img.shields.io/github/stars/xjli360/sealeap-amazon-skills?style=for-the-badge&logo=github" alt="GitHub stars" /></a>
   </p>
   <p><a href="#项目目标">项目目标</a> · <a href="#技能目录">技能目录</a> · <a href="#开始使用">开始使用</a> · <a href="#免费开源承诺">免费开源承诺</a> · <a href="#持续更新与贡献">参与贡献</a></p>
 </div>
@@ -69,7 +69,7 @@
 克隆仓库：
 
 ```bash
-git clone https://github.com/xjli360/sealeap-amazon-ad-skills.git sealeap-amazon-skills
+git clone https://github.com/xjli360/sealeap-amazon-skills.git
 cd sealeap-amazon-skills
 ```
 
@@ -120,7 +120,7 @@ sealeap-amazon-skills/
 
 提交内容需通过名称、资源引用和来源身份检查；每个 Skill 应能独立使用。
 
-如果这个项目对你有帮助，欢迎 [Star](https://github.com/xjli360/sealeap-amazon-ad-skills/stargazers)，让更多亚马逊卖家和 Agent 开发者找到它。
+如果这个项目对你有帮助，欢迎 [Star](https://github.com/xjli360/sealeap-amazon-skills/stargazers)，让更多亚马逊卖家和 Agent 开发者找到它。
 
 <div align="center">
   <p><strong>知识持续汇聚，成果免费开源。</strong></p>
